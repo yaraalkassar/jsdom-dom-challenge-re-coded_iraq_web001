@@ -32,7 +32,7 @@ function stop() {
 let pauseText = pause.innerHTML;
   if(pauseText==" pause "){
     pause.innerHTML=" resume ";
-    pause.id="resume"
+    pause.id="resume";
   }
   else {
     pause.innerHTML=" pause ";
