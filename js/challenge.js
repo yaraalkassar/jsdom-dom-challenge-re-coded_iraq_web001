@@ -1,6 +1,5 @@
 let counter = document.getElementById('counter');
 let c=0;
-let timerState=1; // 1 for OFF
 let inc=document.getElementById('plus');
 let dec=document.getElementById('minus');
 window.addEventListener("DOMContentLoaded", counterClock);
@@ -42,7 +41,9 @@ heart.disabled = true;
     pause.innerHTML=" resume ";
     pause.id="resume";
 
-  }
+clearTimeout(run);
+
+}
   else {
     pause.innerHTML=" pause ";
     pause.id="pause";
