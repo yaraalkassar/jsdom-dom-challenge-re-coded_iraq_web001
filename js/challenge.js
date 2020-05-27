@@ -32,6 +32,13 @@ pause.addEventListener('click', stop)
 function stop() {
 
 }
+document.getElementById("comment-form").addEventListener("click", function(event){
+  event.preventDefault()
+});
+
+
+
+
 
 let cmnt = document.getElementById('comment-input');
 let cmntContainer = document.getElementById('comments');
