@@ -22,7 +22,6 @@ function counterClock() {
  counter.innerText = c;
  }
 }
-let checkInterval = counterClock();
 
 
 let heart= document.getElementById('heart');
