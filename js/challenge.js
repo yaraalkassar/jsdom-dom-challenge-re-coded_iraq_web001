@@ -34,7 +34,7 @@ function stop() {
 }
 
 let cmnt = document.getElementById('comment-input');
-let cmntContainer = document.getElementsById('comments');
+let cmntContainer = document.getElementById('comments');
 let cmntBtn = document.getElementById('submit');
  cmntBtn.addEventListener('click', addComment);
  function addComment() {
