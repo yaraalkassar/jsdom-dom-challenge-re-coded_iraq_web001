@@ -50,6 +50,7 @@ clearTimeout(run);
     inc.disabled = false;
     dec.disabled = false;
     heart.disabled = false;
+    setTimeout(counterClock, 1000);
   }
 
 
