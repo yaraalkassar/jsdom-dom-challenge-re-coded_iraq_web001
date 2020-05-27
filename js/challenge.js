@@ -5,7 +5,6 @@ function counterClock() {
   let c = parseInt(counter.innerText)+1;
  counter.innerText = c;
  let run = setTimeout(counterClock, 1000);
-
  let dec=document.getElementById('minus');
  dec.addEventListener('click', decrease)
  function decrease() {
@@ -30,15 +29,21 @@ heart.innerText = heart.innerText.charAt(0) + num;
 let pause= document.getElementById('pause');
 pause.addEventListener('click', stop)
 function stop() {
+let pauseText = pause.value;
+
+  if(pauseText=="pause"){
+    pause.innerHTML="resume";
+  }
+  else {
+    pause.innerHTML="pause";
+  }
 
 }
+
+// add comment
 document.getElementById("comment-form").addEventListener("click", function(event){
   event.preventDefault()
 });
-
-
-
-
 
 let cmnt = document.getElementById('comment-input');
 let cmntContainer = document.getElementById('list');
