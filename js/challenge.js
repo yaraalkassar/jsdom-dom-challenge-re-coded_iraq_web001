@@ -45,6 +45,9 @@ heart.disabled = true;
   else {
     pause.innerHTML=" pause ";
     pause.id="pause";
+    inc.disabled = false;
+    dec.disabled = false;
+    heart.disabled = false;
   }
 
 
