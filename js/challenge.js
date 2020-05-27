@@ -35,14 +35,12 @@ pause.addEventListener('click', stop)
 function stop() {
 let pauseText = pause.innerHTML;
   if(pauseText==" pause "){
+    pause.innerHTML=" resume ";
+    pause.id="resume";
 inc.disabled = true;
 dec.disabled = true;
 heart.disabled = true;
-    pause.innerHTML=" resume ";
-    pause.id="resume";
-
 clearTimeout(run);
-
 }
   else {
     pause.innerHTML=" pause ";
