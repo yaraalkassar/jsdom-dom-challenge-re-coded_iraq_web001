@@ -9,7 +9,7 @@ function counterClock() {
  counter.innerText = c;
  let run = setTimeout(counterClock, 1000);
 
- 
+
  dec.addEventListener('click', decrease)
  function decrease() {
  c=c-1;
