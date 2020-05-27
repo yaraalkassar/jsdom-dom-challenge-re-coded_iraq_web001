@@ -38,7 +38,7 @@ let pauseText = pause.innerHTML;
     pause.innerHTML=" pause ";
     pause.id="pause";
   }
-  
+
 
 }
 
