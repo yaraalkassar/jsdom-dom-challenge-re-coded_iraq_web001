@@ -36,7 +36,9 @@ let pauseText = pause.innerHTML;
   }
   else {
     pause.innerHTML=" pause ";
+    pause.id="pause";
   }
+  
 
 }
 
