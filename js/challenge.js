@@ -3,9 +3,7 @@ let c=0;
 let timerState=1; // 1 for OFF
 let inc=document.getElementById('plus');
 let dec=document.getElementById('minus');
-
 let run = setTimeout(counterClock, 1000);
-
 window.addEventListener("DOMContentLoaded", counterClock);
 function counterClock() {
   let c = parseInt(counter.innerText)+1;
