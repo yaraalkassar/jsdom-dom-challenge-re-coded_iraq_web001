@@ -42,7 +42,7 @@ dec.disabled = true;
 heart.disabled = true;
     pause.innerHTML=" resume ";
     pause.id="resume";
-    
+
   }
   else {
     pause.innerHTML=" pause ";
