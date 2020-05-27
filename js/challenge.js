@@ -33,7 +33,7 @@ pause.addEventListener('click', stop)
 function stop() {
 let pauseText = pause.innerHTML;
   if(pauseText==" pause "){
-    
+
     pause.innerHTML=" resume ";
     pause.id="resume";
   }
