@@ -41,7 +41,7 @@ document.getElementById("comment-form").addEventListener("click", function(event
 
 
 let cmnt = document.getElementById('comment-input');
-let cmntContainer = document.getElementById('comments');
+let cmntContainer = document.getElementById('list');
 let cmntBtn = document.getElementById('submit');
  cmntBtn.addEventListener('click', addComment);
  function addComment() {
