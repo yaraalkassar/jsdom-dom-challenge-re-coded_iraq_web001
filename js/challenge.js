@@ -42,4 +42,6 @@ let cmntBtn = document.getElementById('submit');
    let cmntList = document.createElement('ul');
    let cmntItem = document.createElement('li');
    cmntItem.innerHTML= cmtText;
+   cmntList.appendChild(cmntItem);
+   cmntContainer.appendChild(cmntList);
  }
