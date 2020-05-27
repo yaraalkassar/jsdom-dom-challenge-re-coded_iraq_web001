@@ -3,11 +3,12 @@ let c=0;
 
 let inc=document.getElementById('plus');
 let dec=document.getElementById('minus');
+let run = setTimeout(counterClock, 1000);
+
 window.addEventListener("DOMContentLoaded", counterClock);
 function counterClock() {
   let c = parseInt(counter.innerText)+1;
  counter.innerText = c;
- let run = setTimeout(counterClock, 1000);
 
 
  dec.addEventListener('click', decrease)
@@ -41,6 +42,7 @@ dec.disabled = true;
 heart.disabled = true;
     pause.innerHTML=" resume ";
     pause.id="resume";
+    
   }
   else {
     pause.innerHTML=" pause ";
