@@ -64,6 +64,7 @@ let cmntContainer = document.getElementById('list');
 let cmntBtn = document.getElementById('submit');
  cmntBtn.addEventListener('click', addComment);
  function addComment() {
+   if(cmnt.value != null)
    let cmtText = cmnt.value;
    let cmntList = document.createElement('ul');
    let cmntItem = document.createElement('li');
