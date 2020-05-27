@@ -1,18 +1,21 @@
 let counter = document.getElementById('counter');
 let c=0;
+
+let inc=document.getElementById('plus');
+let dec=document.getElementById('minus');
 window.addEventListener("DOMContentLoaded", counterClock);
 function counterClock() {
   let c = parseInt(counter.innerText)+1;
  counter.innerText = c;
  let run = setTimeout(counterClock, 1000);
- let dec=document.getElementById('minus');
+
+ 
  dec.addEventListener('click', decrease)
  function decrease() {
  c=c-1;
  counter.innerText = c;
  }
 
- let inc=document.getElementById('plus');
  inc.addEventListener('click', increase)
  function increase() {
  c=c+1;
