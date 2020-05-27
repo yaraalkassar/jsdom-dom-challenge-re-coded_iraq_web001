@@ -70,5 +70,5 @@ let cmntBtn = document.getElementById('submit');
    cmntItem.innerHTML= cmtText;
    cmntList.appendChild(cmntItem);
    cmntContainer.appendChild(cmntList);
-   cmnt.reset();
+   cmnt.value= null;
  }
