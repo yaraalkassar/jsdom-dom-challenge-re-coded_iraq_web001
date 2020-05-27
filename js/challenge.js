@@ -26,3 +26,20 @@ function like() {
 let num =  parseInt(counter.innerText);
 heart.innerText = heart.innerText.charAt(0) + num;
 }
+
+let pause= document.getElementById('pause');
+pause.addEventListener('click', stop)
+function stop() {
+
+}
+
+let cmnt = document.getElementById('comment-input');
+let cmntContainer = document.getElementsById('comments');
+let cmntBtn = document.getElementById('submit');
+ cmntBtn.addEventListener('click', addComment);
+ function addComment() {
+   let cmtText = cmnt.value;
+   let cmntList = document.createElement('ul');
+   let cmntItem = document.createElement('li');
+   cmntItem.innerHTML= cmtText;
+ }
