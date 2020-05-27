@@ -30,12 +30,11 @@ let pause= document.getElementById('pause');
 pause.addEventListener('click', stop)
 function stop() {
 let pauseText = pause.value;
-
   if(pauseText=="pause"){
-    pause.innerHTML="resume";
+    pause.value ="resume";
   }
   else {
-    pause.innerHTML="pause";
+    pause.value ="pause";
   }
 
 }
