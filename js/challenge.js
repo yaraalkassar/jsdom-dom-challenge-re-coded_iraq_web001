@@ -29,7 +29,7 @@ heart.innerText = heart.innerText.charAt(0) + num;
 let pause= document.getElementById('pause');
 pause.addEventListener('click', stop)
 function stop() {
-let pauseText = pause.value;
+let pauseText = pause.innerHTML ;
   if(pauseText==" pause "){
     pause.innerHTML=" resume ";
   }
