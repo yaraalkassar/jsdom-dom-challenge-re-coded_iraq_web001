@@ -36,7 +36,9 @@ pause.addEventListener('click', stop)
 function stop() {
 let pauseText = pause.innerHTML;
   if(pauseText==" pause "){
-
+inc.disabled = true;
+dec.disabled = true;
+heart.disabled = true;
     pause.innerHTML=" resume ";
     pause.id="resume";
   }
